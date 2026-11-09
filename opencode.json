@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [".opencode/AGENTS.md"],
+  "agents": {
+    "todolist": {
+      "description": "Builds and maintains the To-Do List app according to its project instructions",
+      "mode": "all",
+      "system": "Follow .opencode/AGENTS.md for all project work. Inspect the repository before assuming its structure, scripts, or conventions."
+    }
+  }
+}
